@@ -42,9 +42,6 @@ public class Calcula {
      * expressao a ser executada
      */
     public final void executa(final String expr) {
-       if (expr == null) {
-           System.out.println("Informe a expressão");
-       }
        try {
            float valor = calculaValor(expr);
            System.out.println(valor);
