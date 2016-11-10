@@ -83,6 +83,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>Calcula</finalName>
 		<plugins>
 
 			<plugin>
